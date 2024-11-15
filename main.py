@@ -1,7 +1,7 @@
 import json 
 
 class perso:
-    def___init___(self,name,age):
+    def__init__(self,name,age):
         self.name = name
         self.age = age
 
