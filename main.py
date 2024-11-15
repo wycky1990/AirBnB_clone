@@ -12,5 +12,5 @@ p1 = person ("Amanuel", 234)
 p2 = person ("Alex", 32)
 
 dic_p1 = p1.to_dict()
-print(p1.to_dict())
-print(json.dumps(dict_p1))
+print(p1.to_dict(), type(dict_p1))
+print(json.dumps(dict_p1), type(json.dumps(dict_p1)))
